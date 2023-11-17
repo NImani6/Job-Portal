@@ -57,7 +57,7 @@ function Home() {
           </div>
   
           <div id="suggestionsContainer" className="suggestions-container" style={{ display: 'none' }}>
-            {/* Suggestions will be populated here */}
+            {/* Suggestions will be populated in this place */}
           </div>
         </div>
       </div>
