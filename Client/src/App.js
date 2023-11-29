@@ -6,6 +6,9 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Postjob from './components/post-a-job';
 import UpdateJob from './components/updateJob';
+import Loginpage from './Sign-in/login-page';
+import Register from './Sign-in/register';
+import Forgetpasssword from './Sign-in/forget-password';
 
 
 function App() {
@@ -18,6 +21,9 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/post-a-job" element={<Postjob />} />
         <Route path="/update/:id" element={<UpdateJob />} />
+        <Route path="/login-page" element={<Loginpage />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/forget-password" element={<Forgetpasssword />} />
 
         
       </Routes>
