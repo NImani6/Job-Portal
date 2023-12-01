@@ -12,6 +12,7 @@ const authRoutes = require('./routes/auth.routes.js');
 const authCtrl = require('./controllers/auth.controller.js');
 const requireToken = require('./controllers/requireToken.js');
 
+// Enable  CORS
 app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
