@@ -8,7 +8,7 @@ const compress = require('compression');
 const cookieParser = require('cookie-parser');
 const config = require('./config/config');
 
-// Enable CORS
+// Enable  CORS
 app.use(cors());
 
 app.use(bodyParser.json());
