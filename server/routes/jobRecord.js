@@ -2,9 +2,6 @@ const express = require("express");
 const jobRoutes = express.Router();
 const Job = require('../model/jobs.model');
 
-
-
-
 // Get all jobs
 jobRoutes.route('/').get((req, res) => {
   Job.find()
